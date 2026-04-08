@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background: hsl(47, 88%, 63%);
+    justify-content: center;
+    align-items: center;
+    font-family: "Lato", sans-serif;
+    height: 100vh;
+}
+
+.card {
+    background: hsl(0, 0%, 100%);
+    width: 380px;
+    padding: 25px;
+    border-radius: 15px;
+
+    border: 2px solid black;
+
+    box-shadow: 8px 8px 0px black;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.tag {
+    background: hsl(47, 88%, 63%);
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.date {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.card h1{
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.card h1:hover {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+.description {
+    margin-top: 15px;
+    font-size: 14px;
+    color: hsl(0, 0%, 42%);
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.perfil img{
+    width: 30px;
+    
+}
